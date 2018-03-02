@@ -52,7 +52,7 @@ module.exports = function (environment) {
   if (environment === 'production') {
     ENV.rootURL = '/ember-test-deploy';
     ENV.locationType = 'hash';
-    ENV.apiHost = '<% replace with the URL to your deployed API %>';
+    ENV.apiHost = 'https://aqueous-sea-86075.herokuapp.com/';
   }
 
   return ENV;
